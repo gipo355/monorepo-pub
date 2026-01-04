@@ -1,7 +1,6 @@
 {
   "name": "@gipo355/eslint-configs",
   "version": "0.0.1",
-  "private": true,
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -17,5 +16,16 @@
   },
   "dependencies": {
     "tslib": "^2.3.0"
+  },
+  "nx": {
+    "tags": [
+      "scope:shared"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "url": "https://github.com/gipo355/monorepo-pub"
   }
 }
