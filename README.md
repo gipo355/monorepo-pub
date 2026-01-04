@@ -9,7 +9,6 @@
 This repository demonstrates a production-ready TypeScript monorepo with:
 
 - **3 Publishable Packages** - Ready for NPM publishing
-
   - `@gipo355/strings` - String manipulation utilities
   - `@gipo355/async` - Async utility functions with retry logic
   - `@gipo355/colors` - Color conversion and manipulation utilities

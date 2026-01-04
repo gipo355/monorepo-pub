@@ -77,4 +77,3 @@ As the shared foundation of the monorepo:
 - It will be excluded from NPM publishing when running `nx release`
 - Changes to this package may affect all other packages in the monorepo
 - Keep utilities generic and well-tested as they form the foundation
-
