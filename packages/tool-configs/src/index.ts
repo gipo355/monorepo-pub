@@ -1,5 +1,9 @@
+import eslint from './lib/eslint-configs.js';
+// import stylelint from './lib/stylelint-configs.js';
+// import prettier from './lib/prettier-configs.js';
+
 export const configs = {
-  eslint: () => import('./lib/eslint-configs.js'),
-  stylelint: () => import('./lib/stylelint-configs.js'),
-  prettier: () => import('./lib/prettier-configs.js'),
+  eslint: () => eslint,
+  // stylelint: () => stylelint,
+  // prettier: () => prettier,
 };

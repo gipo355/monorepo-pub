@@ -1,9 +1,19 @@
+import astro from './eslint/astro.js';
+import base from './eslint/base.js';
+import react from './eslint/react.js';
+import vue from './eslint/vue.js';
+import angular from './eslint/angular.js';
+import node from './eslint/node.js';
+import svelte from './eslint/svelte.js';
+
 export const configs = {
-  astro: () => import('./eslint/astro.js'),
-  base: () => import('./eslint/base.js'),
-  react: () => import('./eslint/react.js'),
-  vue: () => import('./eslint/vue.js'),
-  angular: () => import('./eslint/angular.js'),
-  node: () => import('./eslint/node.js'),
-  svelte: () => import('./eslint/svelte.js'),
+  astro: () => astro,
+  base: () => base,
+  react: () => react,
+  vue: () => vue,
+  angular: () => angular,
+  node: () => node,
+  svelte: () => svelte,
 };
+
+export default configs;
