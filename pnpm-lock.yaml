@@ -80,14 +80,11 @@ importers:
       vitest:
         specifier: 4.0.9
         version: 4.0.9(@types/node@20.19.9)(@vitest/ui@4.0.9)(jiti@2.4.2)(tsx@4.21.0)(yaml@2.8.2)
+      workspace:remove@latest:
+        specifier: link:@nx/workspace:remove@latest
+        version: link:@nx/workspace:remove@latest
 
-  packages/async:
-    dependencies:
-      tslib:
-        specifier: ^2.3.0
-        version: 2.8.1
-
-  packages/colors:
+  packages/eslint-configs:
     dependencies:
       tslib:
         specifier: ^2.3.0
