@@ -1,4 +1,4 @@
-const configs = {
+const configs: Record<string, unknown> = {
   recommended: {},
 };
 
