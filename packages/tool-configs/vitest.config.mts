@@ -1,16 +1,10 @@
-/// <reference types='vitest' />
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vitest/config';
 
 export default defineConfig(() => ({
-  root: import.meta.dirname,
-  cacheDir: '../../node_modules/.vite/packages/eslint-configs',
-  plugins: [],
-  // Uncomment this if you are using workers.
-  // worker: {
-  //  plugins: [],
-  // },
+  root: __dirname,
+  cacheDir: '../../node_modules/.vite/packages/tool-configs',
   test: {
-    name: '@gipo355/eslint-configs',
+    name: '@gipo355/tool-configs',
     watch: false,
     globals: true,
     environment: 'node',
