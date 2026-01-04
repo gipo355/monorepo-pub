@@ -92,6 +92,9 @@ importers:
 
   packages/eslint-configs:
     dependencies:
+      '@gipo355/utils':
+        specifier: workspace:*
+        version: link:../../libs/utils
       tslib:
         specifier: ^2.3.0
         version: 2.8.1

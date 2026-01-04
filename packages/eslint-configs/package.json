@@ -15,11 +15,12 @@
     }
   },
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "@gipo355/utils": "workspace:*"
   },
   "nx": {
     "tags": [
-      "scope:shared"
+      "scope:eslint"
     ]
   },
   "publishConfig": {
