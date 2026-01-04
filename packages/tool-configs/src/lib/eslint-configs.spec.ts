@@ -1,7 +1,8 @@
-import { eslintConfigs } from './eslint-configs.js';
+import { configs } from './eslint-configs.js';
 
 describe('eslintConfigs', () => {
-  it('should work', () => {
-    expect(eslintConfigs()).toEqual('eslint-configs');
+  it('should export configs object', () => {
+    expect(configs).toBeDefined();
+    expect(typeof configs.base).toBe('function');
   });
 });
