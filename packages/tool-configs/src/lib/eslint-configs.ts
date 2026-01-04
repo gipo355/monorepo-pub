@@ -6,7 +6,7 @@ import angular from './eslint/angular.js';
 import node from './eslint/node.js';
 import svelte from './eslint/svelte.js';
 
-export const configs = {
+export default {
   astro: () => astro,
   base: () => base,
   react: () => react,
@@ -15,5 +15,3 @@ export const configs = {
   node: () => node,
   svelte: () => svelte,
 };
-
-export default configs;
